@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-image: url("old-white-background.jpg");
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.top-nav li {
+  display: inline-block;
+  color: blue;
+  text-decoration: underline;
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  border-right: 1px solid black;
+}
+
+.top-nav li:last-child {
+  border-right: none;
+}
+
+
+
+.top-nav li:hover {
+  background: #DCDCDC;
+}
+
+.top-nav {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: gray;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.side-nav {
+  display: inline-block;
+  float: left;
+  width: 15%;
+}
+
+.side-nav li {
+  text-decoration: none;
+  width: 50%;
+}
+
+.side-nav li:hover {
+  text-decoration: underline;
+  background: gray;
+}
+
+.post {
+  display: inline-block;
+  float: right;
+  width: 85% ;
+}
+
+
+figure {
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+  margin: 40px 0 0 0;
+}
+
+article {
+  box-sizing: border-box;
+  float: right;
+  width: 80%;
+}
+
+footer {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  background: gray;
+  bottom: 0;
+}
+
+footer h3 {
+  margin: 15px 0px 15px 15px ;
+}
